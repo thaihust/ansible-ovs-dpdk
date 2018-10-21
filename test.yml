@@ -1,0 +1,9 @@
+- name: Provision Custom Facts
+  hosts: localhost
+  tasks:
+    - debug: msg="{{ dpdk_repo }}"
+    
+- name: Provision Custom Facts
+  hosts: all
+  tasks:
+    - debug: msg="{{ dpdk_repo }}"
